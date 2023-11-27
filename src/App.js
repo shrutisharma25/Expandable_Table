@@ -66,7 +66,7 @@ const App = () => {
 
   useEffect(() => {
     // Fetch data from the JSON file
-    fetch("/data.json")
+    fetch("https://shrutisharma25.github.io/Table__API/data.json")
       .then((response) => response.json())
       .then((data) => setJsonData(data))
       .catch((error) => console.error("Error fetching data:", error));
