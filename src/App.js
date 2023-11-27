@@ -68,7 +68,7 @@ const App = () => {
     // Fetch data from the JSON file
     fetch("https://shrutisharma25.github.io/Table__API/data.json")
       .then((response) => response.json())
-      .then((data) => setJsonData(data))
+      .then((data) => setJsonData(data.rows))
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
 
