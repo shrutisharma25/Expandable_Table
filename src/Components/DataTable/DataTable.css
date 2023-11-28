@@ -1,0 +1,31 @@
+.app-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 50px auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr.selected-row {
+    background-color: #c5e1a5; /* Light green background for selected rows */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
